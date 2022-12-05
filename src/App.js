@@ -16,12 +16,12 @@ function App() {
     <div className="app">
       <h1>Product Category Title</h1>
       <Product
-        name="item 1"
+        name="iPhone"
         description="short decription"
         price={1500.0}
       />
-      <Product name="item 2" description="short decription" price={800.0} />
-      <Product name="item 2" description="short decription" price={150.0} />
+      <Product name="MacBook Pro" description="short decription" price={800.0} />
+      <Product name="iMac" description="short decription" price={150.0} />
       
       <div>
         <h1>useState</h1>
