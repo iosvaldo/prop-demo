@@ -1,15 +1,27 @@
 *{
   margin: 0;
-
 }
+
 .app {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-size: 2em;
+    color: white;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
+.img__container {
+ display:contents;
+ 
+}
+
+.apple__img{
+ 
+  width:20%;
+  height:20%;
+}
