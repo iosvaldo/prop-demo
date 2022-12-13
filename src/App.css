@@ -1,27 +1,49 @@
-*{
-  margin: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.app {
-  background-color: #282c34;
-    min-height: 100vh;
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+header { 
+    background-color: rgb(130, 250, 114);
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    font-size: 2em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+   
+}
+
+button {
+    background-color: gray;
     color: white;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    padding: 0.25rem;
+    margin: 0.5rem;
 }
 
-.img__container {
- display:contents;
- 
+button span[role="img"] {
+    color: transparent;
+    text-shadow: 0 0 0 white;
+    margin-right: 0.5rem;
 }
 
-.apple__img{
- 
-  width:20%;
-  height:20%;
+main {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    background-color: rgb(195, 202, 223);
+}
+
+.card img {
+    width: 50%;
 }
